@@ -1,0 +1,41 @@
+Title: Demystifying the Journey of a URL: An ALX Full Stack Perspective
+
+URL: [https://www.linkedin.com/in/michael-mwai-6b351216a/]
+
+---
+
+As a full stack web developer, understanding the intricacies of how a URL traverses through the web stack is not just a matter of curiosity but a fundamental aspect of our work. In this blog post, I aim to shed light on this often-overlooked topic and share insights that can benefit both aspiring developers and seasoned professionals alike.
+
+**1. DNS Request:**
+Imagine you type a URL like https://www.google.com into your browser and hit Enter. The journey begins with a DNS request. The browser sends a query to a DNS resolver, which maps the human-readable domain name to an IP address.
+
+**2. TCP/IP:**
+With the IP address in hand, the browser establishes a TCP connection using the Internet Protocol (IP). TCP ensures reliable data transmission between the client and server over the internet, maintaining the integrity of the communication.
+
+**3. Firewall:**
+Before reaching the server, the request may pass through a firewall, a critical component for network security. The firewall filters incoming and outgoing traffic based on predefined rules, safeguarding against potential threats.
+
+**4. HTTPS/SSL:**
+In the era of cybersecurity threats, HTTPS has become the standard for secure communication. HTTPS encrypts the data exchanged between the client and server using SSL or TLS protocols, ensuring confidentiality and integrity.
+
+**5. Load Balancer:**
+To distribute incoming traffic and improve scalability, high-traffic websites often employ load balancers. Load balancers distribute requests across multiple servers, optimizing resource utilization and enhancing reliability.
+
+**6. Web Server:**
+Upon reaching the server, the request is handled by a web server—a software application responsible for processing HTTP requests and serving web pages. Popular web servers include Apache, Nginx, and Microsoft IIS.
+
+**7. Application Server:**
+For dynamic web applications, an application server comes into play. The application server executes server-side code, interacts with databases, and generates dynamic content based on client requests. Frameworks like Node.js, Django, and Ruby on Rails facilitate application development.
+
+**8. Database:**
+Many web applications rely on databases to store and retrieve data. The database server stores and manages the data requested by the application server. Common database systems include MySQL, PostgreSQL, MongoDB, and Redis.
+
+**Conclusion:**
+In conclusion, the journey of a URL through the web stack is a fascinating exploration of the interconnected systems and protocols that power the internet. From DNS resolution to content delivery, each step plays a vital role in delivering a seamless browsing experience to users worldwide.
+
+By understanding this journey from a full stack perspective, developers can gain deeper insights into the underlying technologies and architecture of modern web applications. Whether you're a beginner embarking on your coding journey or a seasoned developer looking to expand your knowledge, grasping the nuances of the web stack is essential for building robust and scalable web solutions.
+
+Let's continue to delve deeper into the intricacies of web development and empower ourselves to create innovative and impactful digital experiences for the world to enjoy.
+
+---
+
