@@ -26,7 +26,19 @@ def number_of_subscribers(subreddit):
 
 
 if __name__ == "__main__":
-    # Example usage
+    # Test with an existing subreddit
     subreddit_name = "learnpython"
-    print(f"Number of subscribers in '{subreddit_name}': {number_of_subscribers(subreddit_name)}")
+    result = number_of_subscribers(subreddit_name)
+    if result > 0:
+        print("OK")
+    else:
+        print("Error: Expected subscribers > 0, got", result)
+
+    # Test with a non-existing subreddit
+    invalid_subreddit = "thissubredditdoesnotexist12345"
+    result = number_of_subscribers(invalid_subreddit)
+    if result == 0:
+        print("OK")
+    else:
+        print("Error: Expected 0 for invalid subreddit, got", result)
 
